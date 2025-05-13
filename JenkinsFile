@@ -13,7 +13,7 @@ pipeline {
     stages { 
         stage('Checkout') {  
             steps { 
-                git branch: 'master', url: 'https://github.com/mtechkiran/SimpleCalci.git'  
+                git branch: 'master', url: 'https://github.com/Naveen-Ka31/h.git'  
             } 
     } 
      stage('Build') {  
