@@ -1,7 +1,7 @@
  pipeline { 
     agent any 
     tools { 
-          maven ' Maven' //Ensure name matches with configured  
+          maven 'Maven' //Ensure name matches with configured  
     } 
     stages { 
         stage('Checkout') {  
@@ -21,7 +21,7 @@
       } 
      stage('Run Application') {  
             steps { 
-                sh 'java –jar target/Hello2-0.0.1-SNAPSHOT.jar'  
+                sh 'java -jar target/Hello2-0.0.1-SNAPSHOT.jar'  
             } 
       } 
     } 
